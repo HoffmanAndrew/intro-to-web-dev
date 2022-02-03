@@ -1,8 +1,17 @@
 /* Element selector that gives every p element a monospace font. */
 p {
-  font-family: monospace;
+  font-family: 'Kings', cursive;
+  font-size: 60px;
 }
+h1{
+  font-family: 'Kings', cursive;
+  font-size: 120px;
+  float: top;
+  margin-left: 650px;
+  color: darkred;
 
+
+}
 /* Class selector that gives elements with this class a big bold style. */
 .big {
   font-size: large;
@@ -13,3 +22,56 @@ p {
 #boldly {
   color: red;
 }
+
+#scroll-container {
+  border: px solid black;
+  border-radius: 5px;
+  height: 500px;
+  width: 1050px;
+  overflow: hidden;
+  margin: 450px;
+  margin-top: 50px;
+}
+
+#scroll-text {
+  height: 100%;
+  text-align: center;
+  font-size: 40px;
+  color: gold;
+  font-family: 'Kings', cursive;
+  
+  /* animation properties */
+  -moz-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  
+  -moz-animation: my-animation 79s linear ;
+  -webkit-animation: my-animation 79s linear ;
+  animation: my-animation 79s linear ;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateY(100%); }
+  to { -moz-transform: translateY(-250%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateY(100%); }
+  to { -webkit-transform: translateY(-250%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  to {
+    -moz-transform: translateY(-250%);
+    -webkit-transform: translateY(-250%);
+    transform: translateY(-250%);
+  }
+}
+
