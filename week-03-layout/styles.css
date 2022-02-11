@@ -33,6 +33,7 @@ footer {
 body{
   width: 62.5vw;
   margin-left: 20.554984583761563vw;
+  background-color: tan;
 }
 h1{
 margin-left: 20px;
@@ -86,4 +87,9 @@ height: 40px;
    width: 2.0833333333333335vw;
   margin-left: 9.895833333333334vw;
   height: 40px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
