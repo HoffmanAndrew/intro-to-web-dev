@@ -1,5 +1,7 @@
 nav {
-  border: thin solid black;
+  margin-top: px;
+  margin-left: 20px;
+  font-size: 30px;
 }
 
 div {
@@ -9,4 +11,79 @@ div {
 
 footer {
   border: thin solid black;
+}
+.group1{
+  display: grid;
+  grid-template-columns: 200px 2fr 3fr;
+  height: 400px;
+  width: 62.5vw;
+}
+.group2{
+  display: flex;
+  height: 800px;
+  width: 62.5vw;
+  flex-direction: row;
+}
+.head{
+ width: 100%;
+ background-color: #414042;
+ height: 150px;
+ margin-top: 0px;
+}
+body{
+  width: 62.5vw;
+  margin-left: 20.554984583761563vw;
+}
+h1{
+margin-left: 20px;
+
+font-family: futura-pt-bold, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+font-size: 50px;
+margin-bottom: 5px;
+color: #d1d3d4;
+}
+
+p{
+  margin-left: 20px;
+}
+.paragraph1{
+width: 10.277492291880781vw;
+height: 400px;
+margin-left:  5.208333333333333vw;
+margin-right:  5.208333333333333vw;
+margin-top: 80px;
+}
+.paragraph2{
+  width: 10.277492291880781vw;
+  height: 400px;
+  margin-left:  5.208333333333333vw;
+  margin-right:  5.208333333333333vw;
+  margin-top: 80px;
+}
+.paragraph3{
+   width: 10.277492291880781vw;
+   height: 400px;
+   margin-left:  5.208333333333333vw;
+   margin-right:  5.208333333333333vw;
+   margin-top: 80px;
+}
+.logo1{
+width: 2.0833333333333335vw;
+margin-left: 9.895833333333334vw;
+height: 40px;
+
+}
+.logo2{
+  width: 2.0833333333333335vw;
+  height: 40px;
+  margin-left: 9.895833333333334vw;
+}
+.logo3{
+   width: 2.0833333333333335vw;
+  margin-left: 9.895833333333334vw;
+  height: 40px;
 }
