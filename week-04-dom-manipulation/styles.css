@@ -1,8 +1,22 @@
 #output {
   /* Output starts invisible */
+  font-size: 72px;
   display: none;
 }
 
 #adjective-one-output {
+  font-weight: bold;
+}
+
+#animal-one-output {
+  font-weight: bold;
+}
+#verb-one-output {
+  font-weight: bold;
+}
+#object-one-output {
+  font-weight: bold;
+}
+#preposition-one-output {
   font-weight: bold;
 }
