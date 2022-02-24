@@ -1,7 +1,45 @@
 #question-two {
+margin-left: 50px;
   display: none;
+
 }
+
+#question-three {
+  display: none;
+  margin-left: 50px;
+}
+
+#question-four {
+  display: none;
+  margin-left: 50px;
+}
+
 
 #done {
   display: none;
+}
+img{
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  
+}
+.box{
+ 
+  width: 300px;
+ 
+  margin: 0px;
+margin-bottom: 50px;
+}
+#question-one{
+  margin-left: 50px;
+  margin-top: 50px
+}
+
+body{
+  width: 400px;
+  background-color: dimgray;
+  
+  margin-left: 40%;
+  text-align: center;
 }

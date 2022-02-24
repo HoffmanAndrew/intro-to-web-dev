@@ -6,14 +6,15 @@ function submitAnswerOne() {
   // Get the text from answer one's input element
   const answerOne = answerOneInput.value;
 
-  if(answerOne == 'cat') {
+
+
+if(answerOne == 'Goku') {
     alert("That's right!");
     hide('question-one');
     show('question-two');
-  } else if(answerOne == 'dog') {
-    alert('Close, but my favorite animal runs away from dogs.');
-  } else {
-    alert('Wrong! Hint: My favorite animal meows.')
+  } 
+   else {
+    alert('Hint: He is the main character of the show dragon ball.')
   }
 }
 
@@ -25,16 +26,45 @@ function submitAnswerTwo() {
   // Get the number from answer two's input element
   const answerTwo = answerTwoInput.value;
 
-  if(answerTwo == 42) {
+  if(answerTwo == 'Luffy') {
     alert("That's right!");
     hide('question-two');
-    show('done');
-  } else if(answerTwo < 42) {
-    alert('The answer is higher.');
-  } else {
-    alert('The answer is lower.')
+    show('question-three');
+  }  else {
+    alert('Hint: He is the main character of the show One Piece.')
   }
 }
+
+function submitAnswerThree() {
+  // Get answer two's input element
+  const answerThreeInput = document.getElementById('answer-three-input');
+  // Get the number from answer two's input element
+  const answerThree = answerThreeInput.value;
+
+  if(answerThree == 'Natsu') {
+    alert("That's right!");
+    hide('question-three');
+    show('question-four');
+  }  else {
+    alert('Hint: He is the main character of the show Fairy Tail.')
+  }
+}
+
+function submitAnswerFour() {
+  // Get answer two's input element
+  const answerFourInput = document.getElementById('answer-four-input');
+  // Get the number from answer two's input element
+  const answerFour = answerFourInput.value;
+
+  if(answerFour == 'Ichigo') {
+    alert("That's right!");
+    hide('question-four');
+    show('done');
+  }  else {
+    alert('Hint: He is the main character of the show Bleach.')
+  }
+}
+
 
 // Helper function that takes an ID and shows the element with that ID.
 function show(id) {
