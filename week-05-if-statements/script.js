@@ -59,12 +59,25 @@ function submitAnswerFour() {
   if(answerFour == 'Ichigo') {
     alert("That's right!");
     hide('question-four');
-    show('done');
+    show('question-five');
   }  else {
     alert('Hint: He is the main character of the show Bleach.')
   }
 }
+function submitAnswerFive() {
+  // Get answer two's input element
+  const answerFiveInput = document.getElementById('answer-five-input');
+  // Get the number from answer two's input element
+  const answerFive = answerFiveInput.value;
 
+  if(answerFive == 'Saitama') {
+    alert("That's right!");
+    hide('question-five');
+    show('done');
+  }  else {
+    alert('Hint: He is the main character of the show One Punch Man.')
+  }
+}
 
 // Helper function that takes an ID and shows the element with that ID.
 function show(id) {
