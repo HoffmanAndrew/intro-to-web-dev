@@ -79,16 +79,16 @@ function displaythirdWords() {
   const thirdWordsElement = document.getElementById('third-words');
 
   // Loop over every word in the array.
-  for(let i = 0; i < wordsArray.length; i++) {
+  for(let i = 0; i < wordsArray.length; i=+3) {
     const word = wordsArray[i];
     // If the word has more than 5 characters, display it in the page.
-    if(word.slice(2))  {
+    
       const wordElement = document.createElement('li');
       wordElement.innerText = word;
       thirdWordsElement.appendChild(wordElement);
     }
   }
-}
+
 
 function displaycommonWords() {
   const commonWordsElement = document.getElementById('common-words');
@@ -123,4 +123,6 @@ function displaySpeechStats() {
 
   // TODO: Call your functions here!
 }
+
+
 
