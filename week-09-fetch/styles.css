@@ -1,8 +1,33 @@
 #images {
-  width: 500px;
+  width: 600px;
   border: thin solid black;
+  margin-left: 34vw;
 }
 
 #images img {
-  width: 100px;
+  width: 150px;
+}
+
+body{
+  text-align: center;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+}
+
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: goldenrod;
+}
+
+/* mouse over link */
+a:hover {
+  color: White;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
