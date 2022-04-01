@@ -23,6 +23,7 @@ function loadContent() {
 
   loadTable();
   loadLongestTask();
+  loadSum();
 }
 
 // Adds a task to the array and reloads the page content.
@@ -55,11 +56,7 @@ function loadTable() {
     rowElement.appendChild(createElement('td', task.time));
     tableElement.appendChild(rowElement);
   }
-const footerRowElement = document.createElement('tr');
-  footerRowElement.appendChild(createElement('th', ''));
-  footerRowElement.appendChild(createElement('th', 'total'));
-  footerRowElement.appendChild(createElement('th', ''));
-  tableElement.appendChild(footerRowElement);
+
   
 
 

@@ -1,6 +1,6 @@
 // Loads content for a Wikipedia article and displays it in the page.
 async function loadContent() {
-  const pageId = 'Cat';
+  const pageId = 'French horn';
   const response = await fetch(
     'https://en.wikipedia.org/w/api.php?' +
     'action=parse&formatversion=2&format=json&origin=*&page='
@@ -52,3 +52,31 @@ async function loadImages(images) {
       imagesContainer.appendChild(imageElement);
   }
 }
+
+
+// Loads categories for a Wikipedia article and displays it in the page.
+var url = "https://en.wikipedia.org/w/api.php"; 
+
+var params = {
+    action: "query",
+    format: "json",
+    prop: "categories",
+    titles: "French horn"
+};
+
+url = url + "?origin=*";
+Object.keys(params).forEach(function(key){url += "&" + key + "=" + params[key];});
+
+fetch(url)
+    .then(function(response){return response.json();})
+    .then(function(response) {
+        var pages = response.query.pages;
+        for (var p in pages) {
+            for (var horn of pages[p].categories) {
+                console.log(horn.title);
+            }
+        }
+    })
+    .catch(function(error){console.log(error);});
+    
+  
