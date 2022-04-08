@@ -53,7 +53,7 @@ async function loadImages(images) {
   }
 }
 
-
+async function loadCategories() {
 // Loads categories for a Wikipedia article and displays it in the page.
 var url = "https://en.wikipedia.org/w/api.php"; 
 
@@ -79,4 +79,4 @@ fetch(url)
     })
     .catch(function(error){console.log(error);});
     
-  
+  }

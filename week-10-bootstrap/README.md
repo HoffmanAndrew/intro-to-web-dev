@@ -1,20 +1,27 @@
-# Week 10: Bootstrap
+# Week 3: Layout
 
-This week, you're revisiting and "Bootstrapifying" your project from week 3.
+Modify `index.html` and `styles.css` to create a website for a business.
 
-During week 3, you created a website for a business, and you wrote the HTML and
-CSS yourself. This week, you're making a website for that same business, but
-you're using Bootstrap instead.
+The business can be real, imaginary, or aspirational. Get creative! Here are
+some ideas:
 
-You can copy the files from week 3 into this directory, or you can start from
-scratch if that's easier.
+- Your favorite local business
+- A bookstore that only sells your favorite books
+- A photography studio that specializes in pictures of your pet
 
-When you're done, your website should contain at least the following:
+Your website should contain at least the following:
 
-- 1 Bootstrap container
-- 1 Bootstrap row with at least 2 columns
-- 3 Bootstrap components
+- At least 1 element with `display: grid` containing at least two children
+- At least 1 element with a grid property (other than `display:grid`)
+- At least 1 element with `display: flex` containing at least two children
+- At least 1 element with a flex property (other than `display:flex`)
+- At least 1 style that displays differently based on the width of the screen
 
-Optional bonus challenge: if you finish all of the above and want some more
-practice, try adding Bootstrap to previous projects, or look for other UI
-frameworks and try them out.
+Exactly what layout you create is up to you. You might use grid layout to show
+a grid of thumbnail images, or you might use flexbox to create a navigation
+bar. Whatever you think your business webpage needs is great, as long as you
+satisfy the above requirements.
+
+If it helps, feel free to add other HTML files with different layouts. For
+example, you might have a separate "about" page. Or feel free to use fake links
+in your navigation.
