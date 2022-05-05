@@ -1,0 +1,287 @@
+body{
+  width: 100%;
+  margin: auto;
+  background-color: #FCF8F3;
+
+}
+ #me {
+  width: 30%;
+  float: left;
+  margin-left: 0;
+  margin-top: 25px;
+  background-color: red;
+
+  }
+#about {
+   margin-left: 170px;
+   margin-top: 125px;
+   float: left;
+   }
+.header{
+background-color: #2c2c2c;
+width: 100%;
+height: 300px;
+}
+
+.content{
+background-color: ;
+width: 1200px;
+height: 100%;
+margin: auto;
+}
+
+#title{
+  background-color: ;
+  width: 300px;
+  height: 200px;
+  margin-left: 375px;
+  margin-top: 50px;
+  float: left;
+  text-align: center;
+}
+#logocontainer{
+  background-color: ;
+  width: 150px;
+  height: 200px;
+  margin-top: 50px;
+  float: left;
+
+
+}
+#logo{
+  background-color: ;
+  width: 150px;
+  height: 200px;
+  margin-top: px;
+  float: left;
+
+
+}
+#welcometext{
+  background-color: ;
+  width: 300px;
+  height: 100px;
+  margin-left:100px;
+  float: left;
+  color: #FCF8F3;
+
+
+}
+.body{
+background-color: #FCF8F3;
+width: 1200px;
+height: 100%;
+margin: auto;
+}
+
+.welcome{
+width: 500px;
+height: 400px;
+background-color: #2c2c2c;
+margin-left: 350px;
+margin-top: 50px;
+margin-bottom: 25px;
+float: left;
+text-align: center;
+}
+.button{
+  width: 200px;
+  height: 50px;
+  background-color: green;
+  border: 0px;
+
+}
+.button1{
+  width: 200px;
+  height: 50px;
+  background-color: #fcf8f3;
+  float: left;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+.button1:hover{
+  color: #2c2c2c;
+  background-color: #B16B15;
+
+}
+.button2{
+  width: 200px;
+  height: 50px;
+  background-color: #fcf8f3;
+  float: left;
+  margin-top: 10px;
+  margin-left: 150px;
+}
+.button2:hover{
+  color: #2c2c2c;
+  background-color: #B16B15;
+
+}
+.button3{
+  width: 200px;
+  height: 50px;
+  background-color: #2c2c2c;
+  color: #B16B15;
+  float: left;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+.button3:hover{
+  color: #2c2c2c;
+  background-color: #B16B15;
+
+}
+
+.about{
+  width: 500px;
+  margin-left: 60px;
+  background-color: ;
+  text-align: center;
+  float: left;
+}
+
+h1{
+  margin-top: 28px;
+  margin-bottom: 0px;
+  font-size: 72px;
+  line-height: 70px;
+  color: #fcf8f3;
+  font-family: 'Montserrat', sans-serif;
+}
+h2{
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 55px;
+  line-height: 70px;
+  color: #B16B15;
+  font-family: 'Playfair Display', serif;
+}
+p{
+  font-size: 17.5px;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+
+  padding: 0;
+  padding-left: 355px;
+  overflow: hidden;
+  background-color: #2c2c2c;
+  border-top: solid;
+  border-color: #B16B15;
+
+
+}
+
+li {
+  float: left;
+  margin: auto;
+
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+  color: #B16B15;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #2c2c2c;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}

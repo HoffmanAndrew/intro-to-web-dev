@@ -1,0 +1,98 @@
+<html>
+<head>
+ <header>Portfolio</header>
+<link rel="stylesheet" href="style.css">
+<script src="image.js"></script>
+</head>
+
+<body>
+
+<div class="header">
+    <div class="content">
+      <div id="title">
+        <h1>Andrew Hoffman</h1>
+        </div>
+        <div id="logocontainer">
+          <img id="logo"src="images/logo.png" alt="Personal Logo">
+          </div>
+    </div>
+</div>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="portfolio.html">Portfolio</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+
+<div class="body">
+  <div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+        <img src="images/hero.png" style="padding-left: 100px;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+        <img src="images/logo.png" style="padding-left: 400px; " >
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+        <img src="images/meyer.png" style="padding-left: 250px;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+        <img src="images/type.png" style="padding-left: 300px;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <img src="images/zebra.png" style="padding-left: 70px;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+        <img src="images/croc.png" style="padding-left: 70px;">
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="images/hero.png" style="width:100%" onclick="currentSlide(1)" alt="Hero">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/logo.png" style="width:100%" onclick="currentSlide(2)" alt="Personal Logo">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/meyer.png" style="width:100%" onclick="currentSlide(3)" alt="Meyers Redesign">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/type.png" style="width:100%" onclick="currentSlide(4)" alt="Typeface">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/zebra.png" style="width:100%" onclick="currentSlide(5)" alt="Zebra Sauce">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/croc.png" style="width:100%" onclick="currentSlide(6)" alt="Croc Sauce">
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
